@@ -1,4 +1,6 @@
 
+//Simple Calculator. The main program method doesn't actually do anything else than just start the program
+
 import java.lang.reflect.Array;
 
 
@@ -73,3 +75,26 @@ public class Calculator {
     }
     
 }
+
+//a separate class Reader that encapsulates a Scanner-object with integer reading methods. 
+import java.util.Scanner;
+
+
+public class Reader {
+    private Scanner scan;
+    
+    public Reader(){
+        this.scan = new Scanner(System.in);
+    }
+    
+    public String readString(){
+        return this.scan.nextLine();
+    }
+    
+    public int readInteger(){
+        return Integer.parseInt(this.scan.nextLine());
+    }
+    
+}
+
+
