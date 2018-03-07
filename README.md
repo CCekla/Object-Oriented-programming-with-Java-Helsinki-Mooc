@@ -1,4 +1,6 @@
-# hello-world
+# Hello-world!
 
 Hi everyone!
-I'm Cecilia and I'm trying to learn to code. I'm actually learning Java :)
+
+I'm Cecilia and I'm trying to learn to code. I'm currently learning Java :)
+I thought I'd use this rep to store the solutions to my exercises.
