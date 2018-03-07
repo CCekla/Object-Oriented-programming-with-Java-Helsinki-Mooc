@@ -1,2 +1,4 @@
 # hello-world
-My very first repository
+
+Hi everyone!
+I'm Cecilia and I'm trying to learn to code. I'm actually learning Java :)
