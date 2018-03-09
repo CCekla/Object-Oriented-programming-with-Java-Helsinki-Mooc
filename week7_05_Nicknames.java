@@ -1,3 +1,4 @@
+//Store the following people's names and nicknames into the HashMap
 
 import java.util.HashMap;
 import java.util.Map;
