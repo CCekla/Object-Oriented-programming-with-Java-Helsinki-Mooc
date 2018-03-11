@@ -1,3 +1,5 @@
+//Make Student implement the COmparable interface, so that the compareTo method would sort the students in alphabetic order.
+
 public class Student implements Comparable<Student>{
 
     private String name;
