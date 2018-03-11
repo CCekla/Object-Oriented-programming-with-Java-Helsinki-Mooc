@@ -1,3 +1,6 @@
+//Make Person implement the Comparable interface, 
+//so that the compareTo method would sort the people according to their salary -- rich first, poor last.
+
 public class Person implements Comparable<Person> {
 
     private int salary;
