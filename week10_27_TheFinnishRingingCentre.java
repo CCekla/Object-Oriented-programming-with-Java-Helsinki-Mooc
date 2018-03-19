@@ -53,3 +53,36 @@ public class Bird {
 }
 
 
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class RingingCentre {
+    private Map<Bird, List<String>> observations;
+    
+    public RingingCentre(){
+        this.observations = new HashMap<Bird, List<String>>();
+    }
+    
+    public void observe(Bird bird, String place){
+        if(!this.observations.containsKey(bird)){
+            this.observations.put(bird, new ArrayList<String>());
+        }
+        this.observations.get(bird).add(place);
+    }
+    
+    public void observations(Bird bird){
+        if(this.observations.get(bird) == null){
+            System.out.println(bird.toString() + " observations: 0" );
+        }else{
+            System.out.println(bird.toString() + " observations: " + this.observations.get(bird).size());
+        
+            for(String place : this.observations.get(bird)){
+                System.out.println(place);
+            }
+        }
+        
+    }
+}
